@@ -1,0 +1,20 @@
+.App__btn-add-user {
+  margin: 50px 0 15px;
+}
+.App__btn-add-user-form--btn-update,
+.App__btn-add-user-form--btn-cancel {
+  margin: 10px 15px;
+}
+.App__btn-add-user-form {
+  display: flex;
+  justify-content: center;
+}
+.input-field {
+  width: 400px;
+}
+input:not([type]):focus:not([readonly]) {
+  border-bottom: 1px solid #3726a6b4;;
+  -webkit-box-shadow: 0 1px 0 0 #3726a6b4;
+  box-shadow: 0 1px 0 0 #3726a6b4;
+}
+

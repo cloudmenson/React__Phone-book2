@@ -1,0 +1,20 @@
+.App__btn-delete-user {
+  margin: 8px 3px;
+}
+.App__user-list--id {
+  color: greenyellow;
+}
+.App__user-list--name,
+.App__user-list--phone {
+  margin: 25px 15px;
+}
+.App__user-list-thead {
+  display: flex;
+  flex-direction: column;
+}
+i.left {
+  margin: 0;
+}
+.App__user-list-thead:last-child {
+  border-bottom: 1px solid rgba(55, 55, 55, 0.804);
+}
