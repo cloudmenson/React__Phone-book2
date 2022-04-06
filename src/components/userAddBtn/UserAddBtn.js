@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./UserAddBtn.css";
 
 const UserAddBtn = ({ onAdd }) => {
+  const [show, setShow] = useState(false);  
+  
   const handleOnSubmit = (e) => {
     e.preventDefault();
     onAdd(e.target.name.value, e.target.email.value, e.target.phone.value);
@@ -10,8 +12,6 @@ const UserAddBtn = ({ onAdd }) => {
     e.target.phone.value = "";
     onHideForm();
   };
-
-  const [show, setShow] = useState(false);
 
   const onHideForm = () => {
     setShow(true);
