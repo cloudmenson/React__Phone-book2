@@ -11,12 +11,12 @@ const UserAddBtn = ({ onAdd }) => {
     onHideForm();
   };
 
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const onHideForm = () => {
-    setShow(false);
+    setShow(true);
   };
-
+  
   return (
     <div className="App__btn-add-user">
       <button className="App__btn-add-user--btn btn-floating btn-large pulse purple darken-1">
