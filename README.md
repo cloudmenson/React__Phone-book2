@@ -1,5 +1,6 @@
 # Description
 
+Phone Book made with a function components and hooks: useState/useEffect
 
 # Getting Started
 
