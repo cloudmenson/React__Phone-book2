@@ -1,3 +1,6 @@
+# Description
+
+
 # Getting Started
 
 Open terminal and install dependencies with command: `npm install`,
